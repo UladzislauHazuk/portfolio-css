@@ -22,11 +22,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    top: 0;
-    right: 0;
     position: fixed;
-    width: 100%;
+    width: 1120px;
+    top: 0;
+    left: 50%;
+    margin-top: 20px;
+    margin-left: -560px;
 }
 
 header nav {
@@ -51,7 +52,7 @@ header nav p:not(:last-child) {
 }
 
 .arrow {
-    background-image: url(../img/arrow.png);
+    background-image: url(../img/arrow.svg);
     width: 33px;
     height: 38px;
 }
@@ -77,6 +78,17 @@ header nav p:not(:last-child) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 350px;
+}
+
+.project-left-side h2 {
+    font: 500 24px 'DM Sans';
+    margin-bottom: 25px;
+}
+
+.project-left-side .stacks {
+    color: #606060;
+    margin-top: 50px;
 }
 
 .project-img {
@@ -95,3 +107,32 @@ header nav p:not(:last-child) {
     width: 290px;
 }
 
+.hr {
+    width: 1120px;
+    height: 2px;
+    background-color: black;
+    margin: 110px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0;
+}
+
+.signature {
+    color: #2429AF;
+}
+
+.link-ld-tg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-ld-tg p{
+    font-weight: 500;
+}
+
+.link-ld-tg .link-tg {
+    padding-left: 30px;
+}
