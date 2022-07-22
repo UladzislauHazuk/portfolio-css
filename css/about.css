@@ -30,6 +30,7 @@ header {
     width: 1120px;
     top: 0;
     padding: 15px 0;
+    background-color: #E5E5E5;
 }
 
 header nav {
@@ -137,4 +138,87 @@ footer {
 
 .link-ld-tg .link-tg {
     padding-left: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    * {
+        font-size: 18px;
+    }
+
+    body {
+        max-width: 400px;
+        margin: 20px 20px;
+    }
+
+    header {
+        display: block;
+        max-width: 400px;
+        margin: 10px;
+    }
+
+    header nav {
+        margin-top: 20px;
+    }
+
+    .main {
+        margin-top: 130px;
+    }
+
+    .main-img {
+        display: none;
+    }
+
+    .main h1 {
+        font-size: 40px;
+    }
+
+    .main-left-side {
+        max-width: 350px;
+    }
+
+    .main-left-side p {
+        font-size: 17px;
+    }
+
+    .hard,
+    .soft {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .hard p,
+    .soft p {
+        margin: 10px 0;
+        max-width: 350px;
+    }
+
+    .hr {
+        margin: 40px 0;
+    }
+
+    .mail {
+        display: block;
+    }
+
+    .mail img {
+        display: none;
+    }
+
+    .mail p {
+        font-size: 17px;
+        margin: 20px 0;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .link-ld-tg {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .link-ld-tg .link-tg {
+        padding: 10px 0;
+    }
 }
